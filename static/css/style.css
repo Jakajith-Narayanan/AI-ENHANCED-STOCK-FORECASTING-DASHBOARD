@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+canvas {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.metric-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #444;
+}

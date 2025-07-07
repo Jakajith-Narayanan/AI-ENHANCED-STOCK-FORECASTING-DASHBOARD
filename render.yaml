@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-stock-dashboard
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: OPEN_API_KEY
+        sync: false  # You'll manually add this in the Render dashboard
+

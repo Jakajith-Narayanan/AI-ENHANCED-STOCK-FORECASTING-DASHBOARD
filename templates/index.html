@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Stock Forecast Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <h1>🔮 AI‑Enhanced Stock Forecasting Dashboard</h1>
+
+    <form id="form">
+      <input
+        type="text"
+        id="symbol"
+        placeholder="Enter Stock Symbol (e.g., INFY)"
+        required
+      />
+      <input type="file" id="pdf" accept="application/pdf" required />
+      <button type="submit">Analyze</button>
+    </form>
+
+    <section id="results" style="display: none">
+      <h2>📈 Forecast (7 Days)</h2>
+      <canvas id="forecastChart" height="100"></canvas>
+      <p
+        id="companyName"
+        style="font-size: 18px; font-weight: bold; margin-bottom: 10px"
+      ></p>
+
+      <p id="metric"></p>
+
+      <h2>🤖 Sentiment (FinBERT)</h2>
+      <pre id="sentimentJson"></pre>
+
+      <h2>GPT-4 Summary</h2>
+      <p id="gptSummary"></p>
+
+      <h2 id="recommendation"></h2>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+  </body>
+</html>
