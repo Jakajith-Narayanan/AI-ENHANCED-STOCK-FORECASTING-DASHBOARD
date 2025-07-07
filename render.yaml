@@ -7,6 +7,6 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
     envVars:
-      - key: OPEN_API_KEY
+      - key: OPENAI_API_KEY
         sync: false  # You'll manually add this in the Render dashboard
 
