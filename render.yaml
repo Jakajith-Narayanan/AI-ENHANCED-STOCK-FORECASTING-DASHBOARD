@@ -1,12 +1,13 @@
 services:
   - type: web
     name: ai-stock-dashboard
-    env: python
+    env: python          # ← keep this exactly “python”
     plan: free
     region: oregon
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+
     envVars:
       - key: OPENAI_API_KEY
-        sync: false  # You'll manually add this in the Render dashboard
-
+        sync: false       # set the real value in Render’s dashboard
