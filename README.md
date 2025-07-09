@@ -104,6 +104,103 @@ http://localhost:5000
 
 ├── runtime.txt             # Python version for Render (optional)
 
+🇮🇳 Top 20 Indian Stock Symbols (NSE):-
+
+| Company Name              | Symbol     | Sector              |
+
+| ------------------------- | ---------- | ------------------- |
+
+| Reliance Industries       | RELIANCE   | Energy/Conglomerate |
+
+| Tata Consultancy Services | TCS        | IT Services         |
+
+| Infosys Ltd               | INFY       | IT Services         |
+
+| HDFC Bank Ltd             | HDFCBANK   | Banking             |
+
+| ICICI Bank Ltd            | ICICIBANK  | Banking             |
+
+| State Bank of India       | SBIN       | Banking (PSU)       |
+
+| HCL Technologies          | HCLTECH    | IT Services         |
+
+| Wipro Ltd                 | WIPRO      | IT Services         |
+
+| Larsen & Toubro           | LT         | Infrastructure      |
+
+| Hindustan Unilever Ltd    | HINDUNILVR | FMCG                |
+
+| ITC Ltd                   | ITC        | FMCG                |
+
+| Bharti Airtel             | BHARTIARTL | Telecom             |
+
+| Bajaj Finance             | BAJFINANCE | NBFC                |
+
+| Kotak Mahindra Bank       | KOTAKBANK  | Banking             |
+
+| Maruti Suzuki India       | MARUTI     | Auto                |
+
+| Tata Motors               | TATAMOTORS | Auto                |
+
+| NTPC Ltd                  | NTPC       | Power               |
+
+| Power Grid Corporation    | POWERGRID  | Power               |
+
+| Sun Pharmaceutical        | SUNPHARMA  | Pharma              |
+
+| Adani Enterprises         | ADANIENT   | Conglomerate        |
+
+
+
+
+
+🌍 Top 20 Global Stock Symbols (NASDAQ/NYSE/ADR)
+
+| Company Name             | Symbol    | Exchange    | Sector            |
+
+| ------------------------ | --------- | ----------- | ----------------- |
+
+| Apple Inc.               | AAPL      | NASDAQ      | Technology        |
+
+| Microsoft Corp.          | MSFT      | NASDAQ      | Technology        |
+
+| Amazon.com Inc.          | AMZN      | NASDAQ      | E-commerce/Cloud  |
+
+| Alphabet Inc. (Google)   | GOOGL     | NASDAQ      | Technology        |
+
+| Meta Platforms Inc.      | META      | NASDAQ      | Social Media      |
+
+| Tesla Inc.               | TSLA      | NASDAQ      | EV/Auto           |
+
+| NVIDIA Corp.             | NVDA      | NASDAQ      | Semiconductors    |
+
+| Berkshire Hathaway Inc.  | BRK.B     | NYSE        | Conglomerate      |
+
+| Johnson & Johnson        | JNJ       | NYSE        | Pharma/Healthcare |
+
+| JPMorgan Chase & Co.     | JPM       | NYSE        | Banking           |
+
+| Visa Inc.                | V         | NYSE        | FinTech           |
+
+| Procter & Gamble         | PG        | NYSE        | FMCG              |
+
+| Netflix Inc.             | NFLX      | NASDAQ      | Streaming         |
+
+| Intel Corp.              | INTC      | NASDAQ      | Semiconductors    |
+
+| The Coca-Cola Company    | KO        | NYSE        | Beverages         |
+
+| PepsiCo Inc.             | PEP       | NASDAQ      | Beverages/Food    |
+
+| Toyota Motor Corp. (ADR) | TM        | NYSE ADR    | Auto              |
+
+| Alibaba Group (ADR)      | BABA      | NYSE ADR    | E-commerce        |
+
+| Samsung Electronics Co.  | 005930.KS | KRX (Korea) | Electronics       |
+
+| Nestlé SA                | NSRGY     | OTC ADR     | FMCG/Food         |
+
+
 
 
 Notes:-
