@@ -83,23 +83,33 @@ http://localhost:5000
 
 .
 ├── app.py                  # Main Flask app
+
 ├── forecasting.py          # XGBoost stock prediction logic
+
 ├── sentiment_analysis.py   # PDF reading, sentiment & GPT summary
+
 ├── decision.py             # Recommendation logic
+
 ├── templates/
+
 │   └── index.html          # Frontend HTML
+
 ├── static/
+
 │   └── dashboard.js        # Frontend JS logic
+
 ├── .env.example            # Sample .env file
+
 ├── requirements.txt        # Python dependencies
+
 ├── runtime.txt             # Python version for Render (optional)
 
 
 
 Notes:-
-Works best with PDF reports that contain financial narratives
-You can switch between XGBoost and ARIMA inside app.py
-Modify forecasting.py if you want to try different ML models
+Works best with PDF reports that contain financial narratives.
+You can switch between XGBoost and ARIMA inside app.py.
+Modify forecasting.py if you want to try different ML models.
 
 
 
